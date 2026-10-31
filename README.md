@@ -25,15 +25,13 @@ I like owning a problem end to end: understanding the business process, structur
 
 ## Featured projects
 
-<!-- TODO: link this heading to the repo once the repo is public. It may be published under a new name. -->
-### ticketing
+### [agent-ticketing](https://github.com/joelshore4747/agent-ticketing)
 
 A ticket tracker with two queues: tickets that Claude Code files from audits and reviews, and tickets people create by hand. Go and gqlgen on Postgres at the back, SolidJS at the front, plus a REST API and an MCP server so Claude Code agents can file, claim and work tickets themselves.
 
 `Go` `GraphQL` `PostgreSQL` `SolidJS` `MCP`
 
-<!-- TODO: link this heading to the repo once the repo is public. -->
-### trading_platform
+### [trading-platform](https://github.com/joelshore4747/trading-platform)
 
 A backtesting and paper-trading platform for systematic crypto strategies across spot, perpetuals and options, built to test and falsify strategies. Orders fill on the next bar to prevent lookahead, spread, slippage and commission are charged on every fill by default, and pre-trade risk checks cap notional, leverage and drawdown. Backed by a large pytest suite. It has never traded real money and has no path to a live venue.
 
